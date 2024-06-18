@@ -1,4 +1,4 @@
-const fs = require("fs")
+/*const fs = require("fs")
 
 const leitura = (): unknown =>{
     return JSON.parse(fs.readFileSync('./bd.json'))
@@ -48,7 +48,7 @@ const detalharUsuario = (cpf: string):Usuario =>{
 
     return usuarioEncontrado
 }
-/*
+
 cadastrarUsuario({
     nome: "ANAHUILA",
     email: "abcde",
@@ -61,6 +61,6 @@ cadastrarUsuario({
         cidade: "156654"
     }
 
-})*/
+})
 
-console.log(detalharUsuario("333333-33"));
+console.log(detalharUsuario("333333-33"));*/
